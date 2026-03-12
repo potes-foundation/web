@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+        "color": {
+            "palette": [
+                {"color": "#FFFAE6", "name": "Yellow, light", "slug": "accent-background"},
+                {"color": "#FED783", "name": "Yellow, dark", "slug": "accent"},
+                {"color": "#000000", "name": "Black", "slug": "base"},
+                {"color": "#FFFFFF", "name": "White", "slug": "background"},
+                {"color": "#DFDFDF", "name": "Grey", "slug": "line"}
+            ]
+        },
+        "typography": {
+            "customFontSize": false,
+            "dropCap": false,
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": false,
+            "lineHeight": false,
+            "textColumns": false,
+            "textDecoration": true,
+            "textTransform": false,
+            "writingMode": false,
+
+            "fontFamilies": [
+                {
+                    "name": "(default) Radio Canada",
+                    "slug": "default",
+                    "fontFamily": "'Radio Cananda', Verdana, Geneva, Tahoma, sans-serif",
+                    "fontFace": [
+                        {"fontFamily": "Radio Canada", "fontWeight": 300, "fontStyle": "normal", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-300.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 300, "fontStyle": "italic", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-300italic.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 500, "fontStyle": "normal", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-500.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 500, "fontStyle": "italic", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-500italic.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 600, "fontStyle": "normal", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-600.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 600, "fontStyle": "italic", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-600italic.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 700, "fontStyle": "normal", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-700.woff2"]},
+                        {"fontFamily": "Radio Canada", "fontWeight": 700, "fontStyle": "italic", "fontStretch": "normal", "src": ["file:./assets/fonts/radio-canada-v26-latin-700italic.woff2"]}
+                    ]
+                }
+            ]
+        }
+    },
+	"styles": {},
+	"customTemplates": {},
+	"templateParts": {},
+	"patterns": []
+}
