@@ -67,6 +67,7 @@ p.motto { font-weight: 300; font-size: 1.3rem; line-height: 1.5rem; letter-spaci
 .potes-header>.potes-header--background>.container>div>div { }
 .potes-header>.potes-header--background>.container>div>div.potes-header--text { padding-bottom: 24px; }
 .potes-header>.potes-header--background>.container>div>div.potes-header--text h1.light { font-weight: 300; }
+.potes-header>.potes-header--background>.container>div>div.potes-header--text .wp-block-list li { font-weight: 300; }
 .potes-header>.potes-header--background>.container>div>div.potes-header--image { width: 100%; }
 .potes-header>.potes-header--background>.container>div>div.potes-header--image figure { width: calc(100% - var(--potes-header--shadow)); margin: 0 !important; animation: potes-header-animation linear; animation-timeline: scroll(block nearest); }
 @media only screen and (min-width: 1000px) {
