@@ -14,11 +14,11 @@
 
 * { padding: 0; margin: 0; }
 body { font-family: var(--wp--preset--font-family--default); }
-h1 { font-weight: 500; font-size: 1.8rem; line-height: 2.1rem; letter-spacing: -0.02rem; padding-bottom: 24px; overflow-wrap: break-word; }
-h2 { font-weight: 500; font-size: 1.8rem; line-height: 2.1rem; letter-spacing: -0.02rem; padding-bottom: 24px; overflow-wrap: break-word; }
-h3 { font-weight: 300; font-size: 1.3rem; line-height: 1.5rem; letter-spacing: -0.02rem; padding-bottom: 16px; overflow-wrap: break-word; }
-p { font-weight: 300; font-size: 1.0rem; line-height: 1.8rem; letter-spacing: -0.02rem; padding-bottom: 16px; }
-p.motto { font-weight: 300; font-size: 1.3rem; line-height: 1.5rem; letter-spacing: -0.02rem; padding-bottom: 16px; overflow-wrap: break-word; }
+h1 { font-weight: 500; font-size: 2.625rem; line-height: 3.5rem; letter-spacing: -0.02rem; padding-bottom: 24px; overflow-wrap: break-word; }
+h2 { font-weight: 500; font-size: 2.25rem; line-height: 3.0rem; letter-spacing: -0.02rem; padding-bottom: 24px; overflow-wrap: break-word; }
+h3 { font-weight: 300; font-size: 1.5rem; line-height: 1.875rem; letter-spacing: -0.02rem; padding-bottom: 16px; overflow-wrap: break-word; }
+p { font-weight: 300; font-size: 1.125rem; line-height: 1.75rem; letter-spacing: -0.02rem; padding-bottom: 16px; }
+p.motto { font-weight: 300; font-size: 1.75rem; line-height: 2.25rem; letter-spacing: -0.02rem; padding-bottom: 16px; overflow-wrap: break-word; }
 .wp-block-list { padding-left: 30px; padding-bottom: 16px; }
 .wp-block-list li { padding: 4px 0; }
 .wp-block-separator { border-top: 1px solid var(--wp--preset--color--line); width: 100%; border-bottom: 0 none; border-left: 0 none; border-right: 0 none; margin: 50px 0; }
@@ -49,11 +49,11 @@ p.motto { font-weight: 300; font-size: 1.3rem; line-height: 1.5rem; letter-spaci
     .potes-page-header .potes-page-header--logo figure { max-width: 150px; }
 }
 
-.potes-large-section-header { text-align: center; padding-top: 32px; padding-bottom: 64px; }
-.potes-large-section-header h2 { width: 100%; padding-bottom: 0; }
-.potes-large-section-header p { width: 100%; font-size: 1.5rem; line-height: 1.8rem; }
+.potes-large-section-header { text-align: center; padding-top: 32px; padding-bottom: 64px; width: 100%; max-width: 800px; }
+.potes-large-section-header h2 { padding-bottom: 0; width: 100%; }
+.potes-large-section-header p { font-size: 1.75rem; line-height: 2.25rem; width: 100%; }
 @media only screen and (min-width: 1000px) {
-    .potes-large-section-header { width: 50%; }
+    .potes-large-section-header { }
 }
 
 :root {
