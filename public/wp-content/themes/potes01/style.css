@@ -139,7 +139,12 @@ body.parent-page-slug--en .potes-page-header .potes-page-header--language-nav .w
 .potes-file-list li a:hover { background-color: var(--wp--preset--color--accent-background); }
 .potes-file-list li a:hover::before { background-color: var(--wp--preset--color--accent-background); }
 
-.potes-footer { border-top: 1px solid var(--wp--preset--color--line); padding-top: 24px; max-width: 1000px; margin: 60px 20px 0 20px; }
+.potes-footer { border-top: 1px solid var(--wp--preset--color--line); padding-top: 24px; max-width: 1000px; margin: 60px 20px 0 20px;  }
+.potes-footer:not([data-lang="nl"]) { display: none; }
+body.parent-page-slug--en .potes-footer { display: none;}
+body.parent-page-slug--en .potes-footer[data-lang="en"] { display: block; }
+body.page-slug--en .potes-footer { display: none;}
+body.page-slug--en .potes-footer[data-lang="en"] { display: block; }
 .potes-footer p { font-size: 0.8rem; line-height: 1.1rem;}
 .potes-footer p a { color: var(--wp--preset--color--base); transition: 0.5s; }
 .potes-footer p a:hover { color: var(--wp--preset--color--accent); }
