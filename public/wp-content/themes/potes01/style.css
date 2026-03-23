@@ -39,11 +39,26 @@ p.motto { font-weight: 300; font-size: 1.75rem; line-height: 2.25rem; letter-spa
 .potes-page-header .potes-page-header--logo figure { max-width: 100px; }
 .potes-page-header .potes-page-header--logo figure img { width: 100%; }
 .potes-page-header .potes-page-header--main-nav { text-align: right; flex-grow: 1; flex-shrink: 1; }
+.potes-page-header .potes-page-header--main-nav:not([data-lang="nl"]) { display: none; }
+body.parent-page-slug--en .potes-page-header .potes-page-header--main-nav { display: none;}
+body.parent-page-slug--en .potes-page-header .potes-page-header--main-nav[data-lang="en"] { display: block; }
+body.page-slug--en .potes-page-header .potes-page-header--main-nav { display: none;}
+body.page-slug--en .potes-page-header .potes-page-header--main-nav[data-lang="en"] { display: block; }
 .potes-page-header .potes-page-header--main-nav ul { gap: 24px; display: flex; }
 .potes-page-header .potes-page-header--main-nav .wp-block-navigation-item { }
-.potes-page-header .potes-page-header--main-nav .wp-block-navigation-item a { font-weight: 300; border-bottom: 2px solid transparent; transition: 0.5s; padding-bottom: 5px; }
+.potes-page-header .potes-page-header--main-nav .wp-block-navigation-item a { font-weight: 300; border-bottom: 2px solid transparent; transition: 0.5s; padding: 5px; }
 .potes-page-header .potes-page-header--main-nav .wp-block-navigation-item a:hover { border-bottom-color: var(--wp--preset--color--accent); }
 .potes-page-header .potes-page-header--main-nav .wp-block-navigation-item.current-menu-item a { font-weight: 500; }
+.potes-page-header .potes-page-header--language-nav { text-align: right; flex-grow: 0; flex-shrink: 0; width: 80px; }
+.potes-page-header .potes-page-header--language-nav ul { display: flex; justify-content: flex-end; column-gap: 0; }
+.potes-page-header .potes-page-header--language-nav .wp-block-navigation-item { }
+.potes-page-header .potes-page-header--language-nav .wp-block-navigation-item a { border-right: 1px solid #000000; font-weight: 300; transition: 0.5s; padding: 0px 5px 2px 5px; display: inline-block; }
+.potes-page-header .potes-page-header--language-nav .wp-block-navigation-item:last-child a { border-right: 0 none; }
+.potes-page-header .potes-page-header--language-nav .wp-block-navigation-item a:hover { border-bottom-color: var(--wp--preset--color--accent); }
+body.page-slug--nl .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--nl a { font-weight: 500; }
+body.parent-page-slug--nl .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--nl a { font-weight: 500; }
+body.page-slug--en .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--en a { font-weight: 500; }
+body.parent-page-slug--en .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--en a { font-weight: 500; }
 @media only screen and (min-width: 1000px) {
     .potes-page-header { padding: 24px 0; }
     .potes-page-header .potes-page-header--logo figure { max-width: 150px; }
