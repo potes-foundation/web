@@ -59,6 +59,8 @@ body.page-slug--nl .potes-page-header .potes-page-header--language-nav .wp-block
 body.parent-page-slug--nl .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--nl a { font-weight: 500; }
 body.page-slug--en .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--en a { font-weight: 500; }
 body.parent-page-slug--en .potes-page-header .potes-page-header--language-nav .wp-block-navigation-item.lang--en a { font-weight: 500; }
+.wp-block-navigation__responsive-dialog { padding: 30px; }
+.wp-block-navigation__responsive-container-close { right: 30px; }
 @media only screen and (min-width: 1000px) {
     .potes-page-header { padding: 24px 0; }
     .potes-page-header .potes-page-header--logo figure { max-width: 150px; }
